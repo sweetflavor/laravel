@@ -39,8 +39,12 @@ composer global require cpriego/valet-linux
 
 valet install
 
-cd Desktop/ && mkdir Code && cd Code && mkdir Laravel &&
+cd Desktop/ && mkdir Code && cd Code && mkdir Laravel
 
-
+In to Desktop/Code/Laravel run: valet park
 
 composer global require "laravel/installer"
+
+laravel new testapp
+
+And on your browser testapp.test
