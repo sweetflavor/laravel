@@ -1,15 +1,18 @@
 #PHP Installation
 ================
 
-apt-get install python-software-properties
+In order to install PHP first you have to check if you have some version already on your machine by typing in the terminal "php -v". If you don't have any version installed you are going to see a suggest of wich version can install and the command to do so.
+If the suggested version is last than php-7.0 you can try with the folowing code:
 
-add-apt-repository ppa:ondrej/php
+	apt-get install python-software-properties
 
-apt-get update
+	add-apt-repository ppa:ondrej/php
 
-apt-get install php7.2
+	apt-get update
 
-php -v
+	apt-get install php7.2
+
+	php -v
 
 ==============================================================
 # Composer
